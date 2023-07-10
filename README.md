@@ -3,7 +3,7 @@ A simple working model of a Traffic Light with LPC2148 using KEIL and simulation
 
 
 The Traffic light controller section consists of 12 LEDs arranged in 4 Lanes in LPC2148 Primer Board. Each lane has Go(Green),  Listen(Yellow)  and  Stop(Red)  LED is being placed.
-##Algorithm:
+#Algorithm:
 1. Configure P0.0 to 0.15 as GPIO
 PINSEL0 = 0X00000000
 2. Configure P0.0 to P0.15 as output ports
